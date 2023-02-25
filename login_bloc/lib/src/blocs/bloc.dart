@@ -10,5 +10,5 @@ class Bloc {
 
 // Change data
   Function(String) get changeEmail => _email.sink.add;
-  Function(String) get changePassword => _password.add;
+  Function(String) get changePassword => _password.sink.add;
 }
