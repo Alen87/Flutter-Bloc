@@ -19,4 +19,4 @@ class Bloc extends Validators {
   }
 }
 
-final bloc = Bloc();
+//final bloc = Bloc();
